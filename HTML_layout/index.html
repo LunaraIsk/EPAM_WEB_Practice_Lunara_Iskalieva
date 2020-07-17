@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/app.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <title>Webpack2</title>
+</head>
+<body>
+    <section class="main">
+        <div class="title" id="response"></div>
+    </section>
+        <div class="container">
+            <div class="item">
+                <div class="item_all-voices">
+                    <input type="radio" name="icon" id="list"/>
+                    <label for="list">
+                        <span
+                          class="iconify fa-bars"
+                          data-icon="ic:sharp-playlist-play"
+                          data-inline="true">
+                        </span>
+                        <span class="item_all-voices-title">
+                            All voices
+                        </span>
+                      </label> 
+                </div>
+                <div class="item-microphone">
+                    <input type="radio" name="icon" id="micro"/>
+                    <label for="micro">
+                        <span
+                          class="iconify fa-microphone"
+                          data-icon="mdi:microphone"
+                          data-inline="true"
+                        ></span>
+                        <span class="item_microphone-title">
+                            Microphone
+                        </span>
+                      </label>
+                </div>
+                <div class="item-stream">
+                    <input type="radio" name="icon" id="stream"/>
+                    <label for="stream">
+                        <span
+                          class="iconify fa-music"
+                          data-icon="ic:baseline-speaker"
+                          data-inline="true"
+                        ></span>
+                        <span class="item_stream-title">
+                            Stream
+                        </span>  
+                    </label>
+                </div>
+            </div>
+        </div>
+    <script src="/dist/app.js"></script>
+</body>
+</html>
